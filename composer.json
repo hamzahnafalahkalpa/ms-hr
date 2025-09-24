@@ -1,0 +1,30 @@
+{
+    "name": "wellmed-lite/ms-hr",
+    "autoload": {
+        "psr-4": {
+            "WellmedLite\\MsHr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamzah Nur Alfalah",
+            "email": "hamzahnafalah@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WellmedLite\\MsHr\\MsHrServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "hanafalah/module-employee": "dev-main",
+        "hanafalah/module-people": "dev-main",
+        "hanafalah/module-profession": "dev-main",
+        "hanafalah/module-card-identity": "dev-main",
+        "hanafalah/module-handwriting": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
